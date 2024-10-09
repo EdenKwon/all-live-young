@@ -1,24 +1,32 @@
-# 📖 책 취향 공유 서비스앱 README
+![image](https://github.com/user-attachments/assets/bddeff83-4b2f-4718-8bf0-798ec9661b5c)
+
+# All Live Young WMS README
 
 
 <br>
 
-## 프로젝트 소개
+## 팀명 소개
 
-- README는 책을 좋아하는 사람들이 자신의 책 취향을 공유하고, 다 읽은 책을 판매할 수 있는 SNS입니다.
-- 개인의 프로필 페이지에 좋아하는 구절 등 책에 대한 정보를 작성하고 판매하고 싶은 책을 등록할 수 있습니다.
-- 검색을 통해 책 취향이 비슷한 다른 유저들의 피드를 구경할 수 있습니다.
-- 다양한 유저들을 팔로우하며 마음에 드는 게시글에 좋아요를 누르거나 댓글을 작성할 수 있습니다.
+- All   +  Live   +  榮
+- 의약품 WMS의 구축을 통해 모든 이들이 아프지 않고 젊고 꽃다운 인생을  살게 하고픈 목적을 가진 이름
+
+## 프로젝트 소개 및 주제 선정 이유
+
+- 이번에 참여하게된 프로젝트는 의약품 창고의 원활한 유통 관리를 위한 WMS을 구현한 프로젝트입니다.
+- 2019년에 COVID-19가 유행하며 현재까지도 확진자 발생했습니다.
+- 23년 5월 5일 WHO에서는 공중보건 비상사태를 해제하였고, 확진자 수는 지속적인 완화세를 보였습니다.
+- 그러나 재 유행으로 인해 국내 및 해외 증상 관련 약품들이 부족한 현상 발생하였습니다.
+- 따라서 의약품 재고 및 유통 관리 창고관리시스템(WMS)을 주제로 선정하게 되었습니다.
 
 <br>
 
-## 팀원 구성
+## 팀원 구성 및 소개
 
 <div align="center">
 
-| **고지연** | **김민제** | **양희지** | **지창언** |
-| :------: |  :------: | :------: | :------: |
-| [<img src="https://avatars.githubusercontent.com/u/106502312?v=4" height=150 width=150> <br/> @yeon1615](https://github.com/yeon1615) | [<img src="https://avatars.githubusercontent.com/u/112460466?v=4" height=150 width=150> <br/> @Cheorizzang](https://github.com/Cheorizzang) | [<img src="https://avatars.githubusercontent.com/u/112460506?v=4" height=150 width=150> <br/> @heejiyang](https://github.com/heejiyang) | [<img src="https://avatars.githubusercontent.com/u/76766459?v=4" height=150 width=150> <br/> @journey-ji](https://github.com/journey-ji) |
+| **이경민** | **박유미** | **최성민** | **권용빈** | **장동우** |
+| :------: |  :------: | :------: | :------: | :------: |
+| [<img src="https://github.com/user-attachments/assets/893611e3-6218-47d4-a2ca-37a7d1d66f82" height=150 width=150> <br/> @ceo92](https://github.com/ceo92) | [<img src="https://github.com/user-attachments/assets/10966443-bba9-4349-9650-382bf737191a" height=150 width=150> <br/> @devyumi](https://github.com/devyumi) | [<img src="https://github.com/user-attachments/assets/b8c4cac4-d93f-4043-a441-31720bbe9b47" height=150 width=150> <br/> @csm0837](https://github.com/csm0837) | [<img src="https://github.com/user-attachments/assets/0e411f18-68a7-44d8-8d5e-b210df87cb55" height=150 width=150> <br/> @EdenKwon](https://github.com/EdenKwon) | [<img src="https://github.com/user-attachments/assets/02899fa6-e9dc-49fd-925e-bdaa20015e3b" height=150 width=150> <br/> @ddw0911](https://github.com/ddw0911) |
 
 </div>
 

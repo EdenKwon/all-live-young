@@ -118,7 +118,7 @@ https://github.com/user-attachments/assets/27be16e3-2a91-48d4-af7f-19d96ad80dbe
 
 - [조회 시 null 리턴 이슈](https://velog.io/@ybinn99/%ED%8A%B8%EB%9F%AC%EB%B8%94%EC%8A%88%ED%8C%85-ResultMap)
 
-- [다중 쿼리 Update 불가 이슈]()
+- [다중 쿼리 Update 불가 이슈](https://velog.io/@ybinn99/%ED%8A%B8%EB%9F%AC%EB%B8%94%EC%8A%88%ED%8C%85-Bulk-Update)
 
 <br>
 

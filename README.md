@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/bddeff83-4b2f-4718-8bf0-798ec9661b5c)
+ ![image](https://github.com/user-attachments/assets/bddeff83-4b2f-4718-8bf0-798ec9661b5c)
 
 # All Live Young WMS README
 
@@ -24,9 +24,8 @@
 
 <div align="center">
 
-| **이경민** | **박유미** | **최성민** | **권용빈** | **장동우** |
+| **@@@** | **&&&** | **^^^** | **권용빈** | **$$$** |
 | :------: |  :------: | :------: | :------: | :------: |
-| [<img src="https://github.com/user-attachments/assets/893611e3-6218-47d4-a2ca-37a7d1d66f82" height=150 width=150> <br/> @ceo92](https://github.com/ceo92) | [<img src="https://github.com/user-attachments/assets/10966443-bba9-4349-9650-382bf737191a" height=150 width=150> <br/> @devyumi](https://github.com/devyumi) | [<img src="https://github.com/user-attachments/assets/b8c4cac4-d93f-4043-a441-31720bbe9b47" height=150 width=150> <br/> @csm0837](https://github.com/csm0837) | [<img src="https://github.com/user-attachments/assets/0e411f18-68a7-44d8-8d5e-b210df87cb55" height=150 width=150> <br/> @EdenKwon](https://github.com/EdenKwon) | [<img src="https://github.com/user-attachments/assets/02899fa6-e9dc-49fd-925e-bdaa20015e3b" height=150 width=150> <br/> @ddw0911](https://github.com/ddw0911) |
 | 팀장 | 팀원 | 침원 | 팀원 | 팀원 |
 | 재고 관리, 창고 관리 | 재무 관리, 대시보드, Security | 회원 관리, 고객센터 | 입고 관리 | 출고 관리 |
 

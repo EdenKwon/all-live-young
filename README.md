@@ -34,7 +34,7 @@
 
 <br>
 
-## 1. 개발 환경
+## 1. 개발 환경 //todo버전 추가
 
 - Front : HTML, CSS, JavaScript, Bootstrap
 - Back-end : Java, Spring Boot, ThymeLeaf, JUnit5, MySQL
@@ -43,21 +43,20 @@
 - 협업도구 : Notion, Slack, Google Docs, Google Sheet, Zoom
 <br>
 
-## 2. 채택 프레임워크
+## 2. 프레임워크
 
 #### Mybatis
 - JPA와 달리 SQL 쿼리를 직접 작성할 수 있어 개발자들이 데이터베이스를 쉽게 다룰 수 있는 ORM(Object-Relational Mapping)입니다.
 - 동적 쿼리 작성이 가능합니다. 여러 입고 요청 상품을 동적으로 입력 받는 데에 적합합니다.
 - SQL 쿼리와 Java 코드를 분리하여 관리할 수 있기 때문에 유지보수 측면에서 좋은 프레임워크입니다.
 
-#### Spring Security
-- 인증, 권한 부여, 비밀번호 관리, 세션 관리 등의 보안 관련 강력한 기능을 제공합니다.
-- 권한 별 접근을 제한하여 사용자, 창고 관리자, 총 관리자 별로 화면을 분리할 수 있었습니다.
+#### Spring Boot
+- todo 채워 넣기
   
 
 ## 3. 브랜치 전략 및 컨벤션
 
-#### Git-Flow
+#### Git-Flow //todo 그림 추가하기
 - Git-Flow 전략을 채택하였고 main, develop, feature 브랜치를 사용하였습니다.
     - main 브랜치는 배포 용도로 사용하였습니다. 이 때 hotfix & release 브랜치는 실제 서비스 제공을 하지 않아 활용하지 않았습니다.
     - develop 브랜치는 feature 브랜치들을 병합하는 브랜치로 활용하였습니다.
@@ -70,7 +69,8 @@
 - 패키지 및 테이블 컬럼명: snake case
 
 ## 4. 프로젝트 구조
-![image](https://github.com/user-attachments/assets/aef15a58-8a6c-409f-a81f-340e7b9b47f9)
+<img src="https://github.com/user-attachments/assets/aef15a58-8a6c-409f-a81f-340e7b9b47f9" height=200px>
+
 - 설정 클래스를 담은 config
 - 상수를 정의한 constant
 - 도메인 객체를 정의한 domain
@@ -90,7 +90,7 @@
 
 <br>
 
-## 6. 입고
+## 6. 입고 //todo 화면 별 기능 추가하기
 
 #### 사용자
 https://github.com/user-attachments/assets/95395859-fad4-4f05-a595-7c67995181fc
@@ -133,12 +133,12 @@ https://github.com/user-attachments/assets/27be16e3-2a91-48d4-af7f-19d96ad80dbe
 <br>
 
 ## 9. 관련 링크
-[ERD] https://www.erdcloud.com/d/E6iQPxSRmuLZqKYCT
+[ERD](https://www.erdcloud.com/d/E6iQPxSRmuLZqKYCT)
 
-[입고 유스케이스&플로우 차트] https://app.diagrams.net/#G1QmsZ-x5EELIP1d87eztQus2YOxYP_jqr#%7B%22pageId%22%3A%22tBj_1GJiwpTEB6AQOSF3%22%7D
+[입고 유스케이스&플로우 차트](https://app.diagrams.net/#G1QmsZ-x5EELIP1d87eztQus2YOxYP_jqr#%7B%22pageId%22%3A%22tBj_1GJiwpTEB6AQOSF3%22%7D)
 
-## 10. 프로젝트 후기
+## 10. 프로젝트 후기 //todo 구현애 있어 아쉬움을 정확하게 풀어내기
 
 우선 단순히 WMS를 구축하는 것 뿐만이 아니라 의약품 창고에 대한 WMS를 설계했다는 점이 이번 프로젝트의 핵심이었습니다. 단순 물류 시스템을 뛰어넘어 의약, 제약 분야에 대한 관심을 웹 서비스로 나타낼 수 있어 좋았습니다. 구현에 있어 아쉬움은 많았지만 웹 서비스를 처음 구축했다는 점에 의의를 두고 차차 리팩토링하는 과정을 거쳐 성장해 나가겠습니다. 최종 프로젝트에서도 의미있는  프로젝트를 바탕으로 사용자 친화적 서비스를 제공하도록 하겠습니다.
 
-[2차 프로젝트 회고록] https://velog.io/@ybinn99/%EC%8B%A0%EC%84%B8%EA%B3%84-%EC%95%84%EC%9D%B4%EC%95%A4%EC%94%A8-2%EC%B0%A8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%9A%8C%EA%B3%A0%EB%A1%9D
+[2차 프로젝트 회고록](https://velog.io/@ybinn99/%EC%8B%A0%EC%84%B8%EA%B3%84-%EC%95%84%EC%9D%B4%EC%95%A4%EC%94%A8-2%EC%B0%A8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%9A%8C%EA%B3%A0%EB%A1%9D)

@@ -24,7 +24,7 @@
 
 <div align="center">
 
-| **@@@** | **&&&** | **^^^** | **권용빈** | **$$$** |
+| **AAA** | **BBB** | **CCC** | **EdenKwon** | **DDD** |
 | :------: |  :------: | :------: | :------: | :------: |
 | 팀장 | 팀원 | 침원 | 팀원 | 팀원 |
 | 재고 관리, 창고 관리 | 재무 관리, 대시보드, Security | 회원 관리, 고객센터 | 입고 관리 | 출고 관리 |
@@ -34,10 +34,10 @@
 
 <br>
 
-## 1. 개발 환경 //todo버전 추가
+## 1. 개발 환경
 
-- Front : HTML, CSS, JavaScript, Bootstrap
-- Back-end : Java, Spring Boot, ThymeLeaf, JUnit5, MySQL
+- Front : HTML5, CSS3, JavaScript(ES6), Bootstrap
+- Back-end : Java(17), Spring Boot(3.3.4), Mybatis(3.0.3), Spring Security, ThymeLeaf, JUnit5, MySQL(8.0.21)
 - 형상관리 : Github
 - 개발도구 : IntelliJ, Visual Studio, Mysql Workbench
 - 협업도구 : Notion, Slack, Google Docs, Google Sheet, Zoom
@@ -45,18 +45,22 @@
 
 ## 2. 프레임워크
 
-#### Mybatis
+#### Mybatis(3.0.3)
 - JPA와 달리 SQL 쿼리를 직접 작성할 수 있어 개발자들이 데이터베이스를 쉽게 다룰 수 있는 ORM(Object-Relational Mapping)입니다.
 - 동적 쿼리 작성이 가능합니다. 여러 입고 요청 상품을 동적으로 입력 받는 데에 적합합니다.
 - SQL 쿼리와 Java 코드를 분리하여 관리할 수 있기 때문에 유지보수 측면에서 좋은 프레임워크입니다.
 
-#### Spring Boot
-- todo 채워 넣기
+#### Spring Boot(3.3.4)
+- Spring Java 애플리케이션 개발을 편하게 할 수 있게 해주는 오픈소스 경량급 애플리케이션 프레임워크입니다.
+- Spring Boot는 Spring의 설정을 간편하게 처리해주는 프레임워크입니다.
+- 1차 프로젝트는 프레임워크의 사용없이 프로젝트를 구현했으나 2차 프로젝트에서는 스프링부트를 채택하여 구현해보기로 하였습니다.
   
 
 ## 3. 브랜치 전략 및 컨벤션
 
-#### Git-Flow //todo 그림 추가하기
+#### Git-Flow 
+![image](https://github.com/user-attachments/assets/20e204d6-6057-4af3-b2e6-27a78edf39a4)
+
 - Git-Flow 전략을 채택하였고 main, develop, feature 브랜치를 사용하였습니다.
     - main 브랜치는 배포 용도로 사용하였습니다. 이 때 hotfix & release 브랜치는 실제 서비스 제공을 하지 않아 활용하지 않았습니다.
     - develop 브랜치는 feature 브랜치들을 병합하는 브랜치로 활용하였습니다.
@@ -94,23 +98,12 @@
 
 #### 사용자
 https://github.com/user-attachments/assets/95395859-fad4-4f05-a595-7c67995181fc
-- 사용자는 본인의 입고 요청 리스트를 조회할 수 있습니다.
-- 사용자는 입고 요청서를 작성할 수 있습니다.
-    - 이때 입고 요청 상품은 1개 품목 혹은 그 이상의 품목을 선택하여 등록할 수 있습니다.
-    - 하나의 입고 요청에 대한 여러 입고 요청 상품이 생성되는데 이는 사용자의 입력에 따라 동적으로 추가됩니다. (동적 쿼리)
-    - 입고 요청 코드는 실제 코드 기반 트리거를 통해 등록됩니다.
-- 사용자는 본인의 입고 요청서를 수정할 수 있습니다.
-    - 상품 항목은 변경할 수 없고 파레트 수, 박스 개수, 제조 번호, 유효 기간만 수정이 가능합니다.
-    - 상품 항목 수정을 원할 경우 삭제 후 재 등록을 해야합니다.
-- 사용자는 입고 요청서를 삭제할 수 있습니다.
-- 사용자는 본인의 입고 요청서가 반려되었을 때, 반려 사유를 확인할 수 있습니다.
-
 
 #### 관리자
 https://github.com/user-attachments/assets/27be16e3-2a91-48d4-af7f-19d96ad80dbe
-- 관리자는 본인 창고에 대한 입고 요청서를 확인할 수 있습니다.
-    - 단일 입고 요청서에 대한 승인을 하게되면 재고 파레트 별로 반영이 됩니다.
-    - 반려를 하게 되면 반려 사유를 작성해야 하고, 반려 사유가 표시됩니다.
+
+[상세 기능](https://velog.io/@ybinn99/2%EC%B0%A8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%9D%98%EC%95%BDWMS-%EC%9E%85%EA%B3%A0-%ED%8C%8C%ED%8A%B8-%EA%B8%B0%EB%8A%A5)
+해당 링크에서 입고 상세 기능을 확인하실 수 있습니다.
 
 <br>
 

@@ -59,7 +59,7 @@
 ## 3. 브랜치 전략 및 컨벤션
 
 #### Git-Flow 
-![image](https://github.com/user-attachments/assets/20e204d6-6057-4af3-b2e6-27a78edf39a4)
+<img src="https://github.com/user-attachments/assets/20e204d6-6057-4af3-b2e6-27a78edf39a4" height=300px>
 
 - Git-Flow 전략을 채택하였고 main, develop, feature 브랜치를 사용하였습니다.
     - main 브랜치는 배포 용도로 사용하였습니다. 이 때 hotfix & release 브랜치는 실제 서비스 제공을 하지 않아 활용하지 않았습니다.
@@ -94,7 +94,7 @@
 
 <br>
 
-## 6. 입고 //todo 화면 별 기능 추가하기
+## 6. 입고
 
 #### 사용자
 https://github.com/user-attachments/assets/95395859-fad4-4f05-a595-7c67995181fc
@@ -121,7 +121,7 @@ https://github.com/user-attachments/assets/27be16e3-2a91-48d4-af7f-19d96ad80dbe
     - 우선 데이터를 웹으로 정확하게 전달을 우선시 하다보니 예외 처리를 제대로 하지 못하였습니다. 이 부분을 개선할 예정입니다.
 - 동시성 처리
     - 하나의 입고 요청서에 대해 사용자와 창고 관리자가 접근하여 발생하는 문제에 대해 해결할 예정입니다.
-    - service 트랜잭션 처리 및 mod_date를 통한 판별
+    - service 트랜잭션 처리 및 mod_date를 통한 판별 등을 통해 처리할 예정입니다.
 
 <br>
 
@@ -130,8 +130,8 @@ https://github.com/user-attachments/assets/27be16e3-2a91-48d4-af7f-19d96ad80dbe
 
 [입고 유스케이스&플로우 차트](https://app.diagrams.net/#G1QmsZ-x5EELIP1d87eztQus2YOxYP_jqr#%7B%22pageId%22%3A%22tBj_1GJiwpTEB6AQOSF3%22%7D)
 
-## 10. 프로젝트 후기 //todo 구현애 있어 아쉬움을 정확하게 풀어내기
+## 10. 프로젝트 후기 및 회고록
 
-우선 단순히 WMS를 구축하는 것 뿐만이 아니라 의약품 창고에 대한 WMS를 설계했다는 점이 이번 프로젝트의 핵심이었습니다. 단순 물류 시스템을 뛰어넘어 의약, 제약 분야에 대한 관심을 웹 서비스로 나타낼 수 있어 좋았습니다. 구현에 있어 아쉬움은 많았지만 웹 서비스를 처음 구축했다는 점에 의의를 두고 차차 리팩토링하는 과정을 거쳐 성장해 나가겠습니다. 최종 프로젝트에서도 의미있는  프로젝트를 바탕으로 사용자 친화적 서비스를 제공하도록 하겠습니다.
+우선 단순히 WMS를 구축하는 것 뿐만이 아니라 의약품 창고에 대한 WMS를 설계했다는 점이 이번 프로젝트의 핵심이었습니다. 단순 물류 시스템을 뛰어넘어 의약, 제약 분야에 대한 관심을 웹 서비스로 나타낼 수 있어 좋았습니다. 구현에 있어 아쉬움은 많았지만 웹 서비스를 처음 구축했다는 점에 의의를 두고 차차 리팩토링하는 과정을 거쳐 성장해 나가겠습니다. 최종 프로젝트에서도 의미있는 프로젝트를 바탕으로 사용자 친화적 서비스를 제공하도록 하겠습니다.
 
 [2차 프로젝트 회고록](https://velog.io/@ybinn99/%EC%8B%A0%EC%84%B8%EA%B3%84-%EC%95%84%EC%9D%B4%EC%95%A4%EC%94%A8-2%EC%B0%A8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%9A%8C%EA%B3%A0%EB%A1%9D)
